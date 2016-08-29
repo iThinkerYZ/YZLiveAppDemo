@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF3326790C366476D836924 /* libPods-YZLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CEEF5DC392BD7ABB9607FD /* libPods-YZLiveApp.a */; };
+		ECA304401D74000600807BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA3043F1D74000600807BEE /* main.m */; };
+		ECA304431D74000600807BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304421D74000600807BEE /* AppDelegate.m */; };
+		ECA3044B1D74000600807BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA3044A1D74000600807BEE /* Assets.xcassets */; };
+		ECA3044E1D74000600807BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA3044C1D74000600807BEE /* LaunchScreen.storyboard */; };
+		ECA304611D74008E00807BEE /* YZLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA3045F1D74008E00807BEE /* YZLiveViewController.m */; };
+		ECA304621D74008E00807BEE /* YZLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA304601D74008E00807BEE /* YZLiveViewController.xib */; };
+		ECA304B81D7416C100807BEE /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304B71D7416C100807BEE /* IJKMediaFramework.framework */; };
+		ECA304BA1D7416F700807BEE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304B91D7416F700807BEE /* AudioToolbox.framework */; };
+		ECA304BC1D7416FE00807BEE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304BB1D7416FE00807BEE /* AVFoundation.framework */; };
+		ECA304BE1D74170800807BEE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304BD1D74170800807BEE /* CoreMedia.framework */; };
+		ECA304C01D74170F00807BEE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304BF1D74170F00807BEE /* CoreVideo.framework */; };
+		ECA304C21D74171C00807BEE /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304C11D74171C00807BEE /* libbz2.tbd */; };
+		ECA304C41D74172A00807BEE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304C31D74172A00807BEE /* libz.tbd */; };
+		ECA304C61D74173200807BEE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304C51D74173200807BEE /* MediaPlayer.framework */; };
+		ECA304C81D74173C00807BEE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304C71D74173C00807BEE /* MobileCoreServices.framework */; };
+		ECA304CA1D74174400807BEE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304C91D74174400807BEE /* OpenGLES.framework */; };
+		ECA304CC1D74174E00807BEE /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA304CB1D74174E00807BEE /* VideoToolbox.framework */; };
+		ECA304D41D741BAD00807BEE /* YZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304D21D741BAD00807BEE /* YZMainViewController.m */; };
+		ECA304D51D741BAD00807BEE /* YZMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA304D31D741BAD00807BEE /* YZMainViewController.xib */; };
+		ECA304D91D743B1A00807BEE /* YZLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304D71D743B1A00807BEE /* YZLiveCell.m */; };
+		ECA304DA1D743B1A00807BEE /* YZLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA304D81D743B1A00807BEE /* YZLiveCell.xib */; };
+		ECA304DE1D7447E800807BEE /* YZLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304DD1D7447E800807BEE /* YZLiveItem.m */; };
+		ECA304E11D74860E00807BEE /* YZCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304E01D74860E00807BEE /* YZCreatorItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		755453E3D43256E6C3349638 /* Pods-YZLiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLiveApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp.release.xcconfig"; sourceTree = "<group>"; };
+		9EE03C00587A314B98DD5FDE /* Pods-YZLiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4CEEF5DC392BD7ABB9607FD /* libPods-YZLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA3043B1D74000600807BEE /* YZLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA3043F1D74000600807BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA304411D74000600807BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA304421D74000600807BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA3044A1D74000600807BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA3044D1D74000600807BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA3044F1D74000600807BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA3045E1D74008E00807BEE /* YZLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveViewController.h; sourceTree = "<group>"; };
+		ECA3045F1D74008E00807BEE /* YZLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveViewController.m; sourceTree = "<group>"; };
+		ECA304601D74008E00807BEE /* YZLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZLiveViewController.xib; sourceTree = "<group>"; };
+		ECA304B71D7416C100807BEE /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		ECA304B91D7416F700807BEE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ECA304BB1D7416FE00807BEE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ECA304BD1D74170800807BEE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ECA304BF1D74170F00807BEE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		ECA304C11D74171C00807BEE /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		ECA304C31D74172A00807BEE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ECA304C51D74173200807BEE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ECA304C71D74173C00807BEE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ECA304C91D74174400807BEE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ECA304CB1D74174E00807BEE /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		ECA304D11D741BAD00807BEE /* YZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMainViewController.h; sourceTree = "<group>"; };
+		ECA304D21D741BAD00807BEE /* YZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMainViewController.m; sourceTree = "<group>"; };
+		ECA304D31D741BAD00807BEE /* YZMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZMainViewController.xib; sourceTree = "<group>"; };
+		ECA304D61D743B1A00807BEE /* YZLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveCell.h; sourceTree = "<group>"; };
+		ECA304D71D743B1A00807BEE /* YZLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveCell.m; sourceTree = "<group>"; };
+		ECA304D81D743B1A00807BEE /* YZLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZLiveCell.xib; sourceTree = "<group>"; };
+		ECA304DC1D7447E800807BEE /* YZLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveItem.h; sourceTree = "<group>"; };
+		ECA304DD1D7447E800807BEE /* YZLiveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveItem.m; sourceTree = "<group>"; };
+		ECA304DF1D74860E00807BEE /* YZCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCreatorItem.h; sourceTree = "<group>"; };
+		ECA304E01D74860E00807BEE /* YZCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCreatorItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA304381D74000600807BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA304CC1D74174E00807BEE /* VideoToolbox.framework in Frameworks */,
+				ECA304CA1D74174400807BEE /* OpenGLES.framework in Frameworks */,
+				ECA304C81D74173C00807BEE /* MobileCoreServices.framework in Frameworks */,
+				ECA304C61D74173200807BEE /* MediaPlayer.framework in Frameworks */,
+				ECA304C41D74172A00807BEE /* libz.tbd in Frameworks */,
+				ECA304C21D74171C00807BEE /* libbz2.tbd in Frameworks */,
+				ECA304C01D74170F00807BEE /* CoreVideo.framework in Frameworks */,
+				ECA304BE1D74170800807BEE /* CoreMedia.framework in Frameworks */,
+				ECA304BC1D7416FE00807BEE /* AVFoundation.framework in Frameworks */,
+				ECA304BA1D7416F700807BEE /* AudioToolbox.framework in Frameworks */,
+				ECA304B81D7416C100807BEE /* IJKMediaFramework.framework in Frameworks */,
+				3AF3326790C366476D836924 /* libPods-YZLiveApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35491CB79FCF12231EA4654A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EE03C00587A314B98DD5FDE /* Pods-YZLiveApp.debug.xcconfig */,
+				755453E3D43256E6C3349638 /* Pods-YZLiveApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9431E472FF350CEE32956193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CEEF5DC392BD7ABB9607FD /* libPods-YZLiveApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA304321D74000600807BEE = {
+			isa = PBXGroup;
+			children = (
+				ECA3043D1D74000600807BEE /* YZLiveApp */,
+				ECA3043C1D74000600807BEE /* Products */,
+				35491CB79FCF12231EA4654A /* Pods */,
+				9431E472FF350CEE32956193 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA3043C1D74000600807BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3043B1D74000600807BEE /* YZLiveApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA3043D1D74000600807BEE /* YZLiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304551D74006400807BEE /* Classes */,
+				ECA304411D74000600807BEE /* AppDelegate.h */,
+				ECA304421D74000600807BEE /* AppDelegate.m */,
+				ECA3044A1D74000600807BEE /* Assets.xcassets */,
+				ECA3044C1D74000600807BEE /* LaunchScreen.storyboard */,
+				ECA3044F1D74000600807BEE /* Info.plist */,
+				ECA3043E1D74000600807BEE /* Supporting Files */,
+			);
+			path = YZLiveApp;
+			sourceTree = "<group>";
+		};
+		ECA3043E1D74000600807BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304B71D7416C100807BEE /* IJKMediaFramework.framework */,
+				ECA3043F1D74000600807BEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA304551D74006400807BEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304DB1D743F2000807BEE /* Frameworks */,
+				ECA304CD1D741B9800807BEE /* Main */,
+				ECA304561D74006400807BEE /* Live */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECA304561D74006400807BEE /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304571D74006400807BEE /* Controller */,
+				ECA304581D74006400807BEE /* Model */,
+				ECA304591D74006400807BEE /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		ECA304571D74006400807BEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3045E1D74008E00807BEE /* YZLiveViewController.h */,
+				ECA3045F1D74008E00807BEE /* YZLiveViewController.m */,
+				ECA304601D74008E00807BEE /* YZLiveViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECA304581D74006400807BEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304DC1D7447E800807BEE /* YZLiveItem.h */,
+				ECA304DD1D7447E800807BEE /* YZLiveItem.m */,
+				ECA304DF1D74860E00807BEE /* YZCreatorItem.h */,
+				ECA304E01D74860E00807BEE /* YZCreatorItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECA304591D74006400807BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304D61D743B1A00807BEE /* YZLiveCell.h */,
+				ECA304D71D743B1A00807BEE /* YZLiveCell.m */,
+				ECA304D81D743B1A00807BEE /* YZLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECA304CD1D741B9800807BEE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304CE1D741B9800807BEE /* Controller */,
+				ECA304CF1D741B9800807BEE /* Model */,
+				ECA304D01D741B9800807BEE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ECA304CE1D741B9800807BEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304D11D741BAD00807BEE /* YZMainViewController.h */,
+				ECA304D21D741BAD00807BEE /* YZMainViewController.m */,
+				ECA304D31D741BAD00807BEE /* YZMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECA304CF1D741B9800807BEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECA304D01D741B9800807BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECA304DB1D743F2000807BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA304CB1D74174E00807BEE /* VideoToolbox.framework */,
+				ECA304C91D74174400807BEE /* OpenGLES.framework */,
+				ECA304C71D74173C00807BEE /* MobileCoreServices.framework */,
+				ECA304C51D74173200807BEE /* MediaPlayer.framework */,
+				ECA304C31D74172A00807BEE /* libz.tbd */,
+				ECA304C11D74171C00807BEE /* libbz2.tbd */,
+				ECA304BF1D74170F00807BEE /* CoreVideo.framework */,
+				ECA304BD1D74170800807BEE /* CoreMedia.framework */,
+				ECA304BB1D7416FE00807BEE /* AVFoundation.framework */,
+				ECA304B91D7416F700807BEE /* AudioToolbox.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA3043A1D74000600807BEE /* YZLiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA304521D74000600807BEE /* Build configuration list for PBXNativeTarget "YZLiveApp" */;
+			buildPhases = (
+				4299C9A7CB970DA47967F7EE /* [CP] Check Pods Manifest.lock */,
+				ECA304371D74000600807BEE /* Sources */,
+				ECA304381D74000600807BEE /* Frameworks */,
+				ECA304391D74000600807BEE /* Resources */,
+				2407716EF37A1359FA274A99 /* [CP] Embed Pods Frameworks */,
+				540398FB303CFB00F4DDD8EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZLiveApp;
+			productName = YZLiveApp;
+			productReference = ECA3043B1D74000600807BEE /* YZLiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA304331D74000600807BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					ECA3043A1D74000600807BEE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YKYB5YMSRP;
+					};
+				};
+			};
+			buildConfigurationList = ECA304361D74000600807BEE /* Build configuration list for PBXProject "YZLiveApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA304321D74000600807BEE;
+			productRefGroup = ECA3043C1D74000600807BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA3043A1D74000600807BEE /* YZLiveApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA304391D74000600807BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA304D51D741BAD00807BEE /* YZMainViewController.xib in Resources */,
+				ECA304DA1D743B1A00807BEE /* YZLiveCell.xib in Resources */,
+				ECA3044E1D74000600807BEE /* LaunchScreen.storyboard in Resources */,
+				ECA3044B1D74000600807BEE /* Assets.xcassets in Resources */,
+				ECA304621D74008E00807BEE /* YZLiveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2407716EF37A1359FA274A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4299C9A7CB970DA47967F7EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		540398FB303CFB00F4DDD8EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA304371D74000600807BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA304D41D741BAD00807BEE /* YZMainViewController.m in Sources */,
+				ECA304431D74000600807BEE /* AppDelegate.m in Sources */,
+				ECA304401D74000600807BEE /* main.m in Sources */,
+				ECA304611D74008E00807BEE /* YZLiveViewController.m in Sources */,
+				ECA304D91D743B1A00807BEE /* YZLiveCell.m in Sources */,
+				ECA304DE1D7447E800807BEE /* YZLiveItem.m in Sources */,
+				ECA304E11D74860E00807BEE /* YZCreatorItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECA3044C1D74000600807BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA3044D1D74000600807BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA304501D74000600807BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECA304511D74000600807BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA304531D74000600807BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE03C00587A314B98DD5FDE /* Pods-YZLiveApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YZLiveApp",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YZLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA304541D74000600807BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755453E3D43256E6C3349638 /* Pods-YZLiveApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YZLiveApp",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YZLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA304361D74000600807BEE /* Build configuration list for PBXProject "YZLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA304501D74000600807BEE /* Debug */,
+				ECA304511D74000600807BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA304521D74000600807BEE /* Build configuration list for PBXNativeTarget "YZLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA304531D74000600807BEE /* Debug */,
+				ECA304541D74000600807BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA304331D74000600807BEE /* Project object */;
+}
