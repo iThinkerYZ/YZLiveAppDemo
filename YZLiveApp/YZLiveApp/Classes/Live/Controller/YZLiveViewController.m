@@ -57,6 +57,7 @@
     // 界面消失，一定要记得停止播放
     [_player pause];
     [_player stop];
+    [_player shutdown];
 }
 
 

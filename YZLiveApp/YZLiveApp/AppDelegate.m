@@ -21,7 +21,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     YZMainViewController *liveVc = [[YZMainViewController alloc] init];
-    self.window.rootViewController = liveVc;
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:liveVc];
+    
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     return YES;

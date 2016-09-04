@@ -7,7 +7,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YZMainViewController">
             <connections>
-                <outlet property="tableView" destination="q3c-gP-CDY" id="v9L-1F-HGq"/>
                 <outlet property="view" destination="LMM-25-IWt" id="i9P-CW-eoo"/>
             </connections>
         </placeholder>
@@ -16,17 +15,27 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q3c-gP-CDY">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dw-il-s4y">
+                    <rect key="frame" x="172" y="108" width="30" height="30"/>
+                    <state key="normal" title="采集"/>
+                    <connections>
+                        <action selector="caputureVideo:" destination="-1" eventType="touchUpInside" id="3NU-TY-R0s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaT-Ov-fS2">
+                    <rect key="frame" x="172" y="187" width="30" height="30"/>
+                    <state key="normal" title="播放"/>
+                    <connections>
+                        <action selector="playVideo:" destination="-1" eventType="touchUpInside" id="rKJ-Jb-3uY"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="q3c-gP-CDY" firstAttribute="top" secondItem="LMM-25-IWt" secondAttribute="top" constant="20" id="Dow-9Q-Obl"/>
-                <constraint firstItem="q3c-gP-CDY" firstAttribute="leading" secondItem="LMM-25-IWt" secondAttribute="leading" id="KCx-cP-e41"/>
-                <constraint firstAttribute="bottom" secondItem="q3c-gP-CDY" secondAttribute="bottom" id="Lhv-kQ-g5h"/>
-                <constraint firstAttribute="trailing" secondItem="q3c-gP-CDY" secondAttribute="trailing" id="jRE-TX-z53"/>
+                <constraint firstItem="HaT-Ov-fS2" firstAttribute="top" secondItem="0dw-il-s4y" secondAttribute="bottom" constant="49" id="Crx-uB-3te"/>
+                <constraint firstItem="0dw-il-s4y" firstAttribute="centerX" secondItem="LMM-25-IWt" secondAttribute="centerX" id="FhJ-jb-AQh"/>
+                <constraint firstItem="0dw-il-s4y" firstAttribute="top" secondItem="LMM-25-IWt" secondAttribute="top" constant="108" id="LLg-KZ-UEP"/>
+                <constraint firstItem="HaT-Ov-fS2" firstAttribute="centerX" secondItem="LMM-25-IWt" secondAttribute="centerX" id="bsn-bA-9X0"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="244.5" y="342.5"/>

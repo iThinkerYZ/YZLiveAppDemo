@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3AF3326790C366476D836924 /* libPods-YZLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CEEF5DC392BD7ABB9607FD /* libPods-YZLiveApp.a */; };
+		EC0FBB5F1D7B1015007B9911 /* YZCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0FBB5E1D7B1015007B9911 /* YZCaptureViewController.xib */; };
+		EC7E245D1D7943CA00CA9F9F /* YZBroadcastListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7E245C1D7943CA00CA9F9F /* YZBroadcastListController.m */; };
+		EC7E24641D79481B00CA9F9F /* YZCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7E24631D79481B00CA9F9F /* YZCaptureViewController.m */; };
 		ECA304401D74000600807BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA3043F1D74000600807BEE /* main.m */; };
 		ECA304431D74000600807BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA304421D74000600807BEE /* AppDelegate.m */; };
 		ECA3044B1D74000600807BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA3044A1D74000600807BEE /* Assets.xcassets */; };
@@ -37,6 +40,11 @@
 		755453E3D43256E6C3349638 /* Pods-YZLiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLiveApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp.release.xcconfig"; sourceTree = "<group>"; };
 		9EE03C00587A314B98DD5FDE /* Pods-YZLiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZLiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZLiveApp/Pods-YZLiveApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C4CEEF5DC392BD7ABB9607FD /* libPods-YZLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0FBB5E1D7B1015007B9911 /* YZCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZCaptureViewController.xib; sourceTree = "<group>"; };
+		EC7E245B1D7943CA00CA9F9F /* YZBroadcastListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBroadcastListController.h; sourceTree = "<group>"; };
+		EC7E245C1D7943CA00CA9F9F /* YZBroadcastListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZBroadcastListController.m; sourceTree = "<group>"; };
+		EC7E24621D79481B00CA9F9F /* YZCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCaptureViewController.h; sourceTree = "<group>"; };
+		EC7E24631D79481B00CA9F9F /* YZCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCaptureViewController.m; sourceTree = "<group>"; };
 		ECA3043B1D74000600807BEE /* YZLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA3043F1D74000600807BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECA304411D74000600807BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +118,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC7E24571D79437800CA9F9F /* BroadcastList */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E24581D79437800CA9F9F /* Controller */,
+				EC7E24591D79437800CA9F9F /* Model */,
+				EC7E245A1D79437800CA9F9F /* View */,
+			);
+			path = BroadcastList;
+			sourceTree = "<group>";
+		};
+		EC7E24581D79437800CA9F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E245B1D7943CA00CA9F9F /* YZBroadcastListController.h */,
+				EC7E245C1D7943CA00CA9F9F /* YZBroadcastListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC7E24591D79437800CA9F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC7E245A1D79437800CA9F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC7E245E1D79457E00CA9F9F /* Caputure */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E245F1D79457E00CA9F9F /* Controller */,
+				EC7E24601D79457E00CA9F9F /* Model */,
+				EC7E24611D79457E00CA9F9F /* View */,
+			);
+			path = Caputure;
+			sourceTree = "<group>";
+		};
+		EC7E245F1D79457E00CA9F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E24621D79481B00CA9F9F /* YZCaptureViewController.h */,
+				EC7E24631D79481B00CA9F9F /* YZCaptureViewController.m */,
+				EC0FBB5E1D7B1015007B9911 /* YZCaptureViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC7E24601D79457E00CA9F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC7E24611D79457E00CA9F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECA304321D74000600807BEE = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +229,8 @@
 		ECA304551D74006400807BEE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EC7E245E1D79457E00CA9F9F /* Caputure */,
+				EC7E24571D79437800CA9F9F /* BroadcastList */,
 				ECA304DB1D743F2000807BEE /* Frameworks */,
 				ECA304CD1D741B9800807BEE /* Main */,
 				ECA304561D74006400807BEE /* Live */,
@@ -319,6 +396,7 @@
 				ECA304DA1D743B1A00807BEE /* YZLiveCell.xib in Resources */,
 				ECA3044E1D74000600807BEE /* LaunchScreen.storyboard in Resources */,
 				ECA3044B1D74000600807BEE /* Assets.xcassets in Resources */,
+				EC0FBB5F1D7B1015007B9911 /* YZCaptureViewController.xib in Resources */,
 				ECA304621D74008E00807BEE /* YZLiveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,8 +461,10 @@
 				ECA304401D74000600807BEE /* main.m in Sources */,
 				ECA304611D74008E00807BEE /* YZLiveViewController.m in Sources */,
 				ECA304D91D743B1A00807BEE /* YZLiveCell.m in Sources */,
+				EC7E24641D79481B00CA9F9F /* YZCaptureViewController.m in Sources */,
 				ECA304DE1D7447E800807BEE /* YZLiveItem.m in Sources */,
 				ECA304E11D74860E00807BEE /* YZCreatorItem.m in Sources */,
+				EC7E245D1D7943CA00CA9F9F /* YZBroadcastListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
